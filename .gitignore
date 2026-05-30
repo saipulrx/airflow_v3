@@ -1,0 +1,23 @@
+# ── GCP Service Account Credentials ─────────────────────────────────────────
+# JANGAN PERNAH commit file credentials ke git
+*service-account*.json
+*-credentials*.json
+*keyfile*.json
+dwh-bootcamp-bigquery-*.json
+learning-gcp-*.json
+
+# ── Python Virtual Environment ──────────────────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+
+# ── IDE / Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.claude/
+*.swp
+.DS_Store
